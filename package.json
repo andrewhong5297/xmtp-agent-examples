@@ -16,7 +16,6 @@
     "format:check": "prettier -c .",
     "gen:keys": "tsx scripts/generateKeys.ts",
     "lint": "eslint .",
-    "register:basename": "tsx scripts/registerBasename.ts",
     "revoke": "tsx scripts/revokeInstallations.ts",
     "start": "cd examples/xmtp-gm && tsx index.ts",
     "typecheck": "tsc"
@@ -26,7 +25,6 @@
   },
   "dependencies": {
     "@xmtp/node-sdk": "4.0.1",
-    "dotenv": "^16.4.7",
     "uint8arrays": "^5.1.0",
     "viem": "^2.22.17"
   },
